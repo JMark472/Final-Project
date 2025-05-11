@@ -1,0 +1,38 @@
+#PSC-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 72px 72px;
+    background-image: url(../image/PSC-back.jpg);
+    background-size: cover;
+    max-width: 100%;
+}
+
+.PSC-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 500px;
+    
+  }
+
+.PSC-content h1 {
+    font-size: 50px;
+    color: #00a200;
+    text-align: center;
+  }
+
+
+  @media only screen and (max-width: 1024px) {
+    #PSC-banner {
+      flex-direction: column-reverse;
+      padding: 48px 24px;
+    }
+  
+    .PSC-content {
+      max-width: 100%;
+    }
+  
+  }
+  
